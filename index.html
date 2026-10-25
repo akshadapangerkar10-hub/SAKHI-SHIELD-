@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>SAKHI Shield | Welcome</title><link rel="stylesheet" href="css/style.css"></head>
+<body class="auth-page">
+<header class="brand"><div class="brand-mark">♡</div><div><b>SAKHI <span>Shield</span></b><small>Your safety, your strength.</small></div></header>
+<main class="auth-wrap">
+  <section class="welcome-art"><div class="big-shield">♡</div><h1>You deserve to feel safe.</h1><p>Your personal space for digital and everyday safety.</p><div class="pills"><span>♥ Private by design</span><span>✦ Support when needed</span></div></section>
+  <section class="panel auth-panel">
+    <div class="tabs"><button class="tab active" data-tab="login">Log in</button><button class="tab" data-tab="signup">Create account</button></div>
+    <form id="loginForm" class="auth-form"><h2>Welcome back 💜</h2><p class="muted">Log in to continue to your safety dashboard.</p><label>Email address<input type="email" id="loginEmail" required placeholder="you@example.com"></label><label>Password<input type="password" id="loginPassword" minlength="6" required placeholder="At least 6 characters"></label><button class="btn primary full" type="submit">Log in</button><button type="button" id="forgotBtn" class="text-btn">Forgot password?</button></form>
+    <form id="signupForm" class="auth-form hidden"><h2>Create your account 🌷</h2><p class="muted">For this prototype, your account is saved only in this browser.</p><label>Your name<input id="signupName" required maxlength="60" placeholder="Your name"></label><label>Email address<input type="email" id="signupEmail" required placeholder="you@example.com"></label><label>Password<input type="password" id="signupPassword" minlength="6" required placeholder="At least 6 characters"></label><button class="btn primary full" type="submit">Create account</button></form>
+    <p id="authMessage" class="notice" aria-live="polite"></p><p class="fineprint">Prototype only: do not use a real password or sensitive personal information.</p>
+  </section>
+</main>
+<script src="js/app.js"></script>
+</body></html>
