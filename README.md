@@ -15,16 +15,6 @@ WHAT IS INCLUDED
 - css/style.css: pastel pink/lavender styling
 - js/app.js: browser-side interactions and localStorage data
 
-HOW TO OPEN IN VS CODE (WINDOWS)
-1. Download and extract sakhi_shield_vs.zip.
-2. Open VS Code.
-3. Select File > Open Folder.
-4. Choose the extracted folder named sakhi_shield_vs.
-5. In VS Code, open Extensions (left sidebar) and install "Live Server" by Ritwick Dey if you don't already have it.
-6. Right-click index.html in Explorer and choose "Open with Live Server".
-7. Your browser should open a localhost URL such as http://127.0.0.1:5500/index.html.
-8. Create a demo account, then log in. Use the navigation bar or Home cards to open all pages.
-9. Safe Journey includes an on-screen “I’m Safe” check-in; missed-check-in reminders and automatic contact alerts are not implemented.
 
 IMPORTANT SAFETY AND TECHNICAL LIMITATIONS
 - This is a FRONTEND PROTOTYPE. It does not have a backend, real authentication, secure database, SMS integration, WhatsApp integration, or automatic calls.
