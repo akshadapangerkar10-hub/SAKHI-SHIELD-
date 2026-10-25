@@ -1,5 +1,5 @@
-# SAKHI-SHIELD-
-SAKHI SHIELD — BEGINNER VS CODE PROJECT
+
+SAKHI SHIELD
 ========================================
 
 WHAT IS INCLUDED
